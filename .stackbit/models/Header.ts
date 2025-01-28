@@ -14,7 +14,8 @@ export const Header: Model = {
             items: { type: 'model', models: ['Link'] },
             default: [
                 { type: 'Link', label: 'Home', url: '/' },
-                { type: 'Link', label: 'About', url: '/' }
+                { type: 'Link', label: 'About', url: '/' },
+                { type: 'Link', label: 'BBC', url: 'https://bbc.co.uk' }
             ]
         }
     ]
